@@ -1,0 +1,39 @@
+.currencies {
+    border: 1px solid #f3f3f3;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.currency {
+    display: flex;
+    border: 1px solid #f3f3f3;
+    border-top: none;
+    border-right: none;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.currency>h4 {
+    color: #29aae3;
+}
+
+.currency>p {
+    font-size: small;
+}
+
+.rates {
+    display: inline-flex;
+    flex-direction: column;
+    align-self: flex-end;
+    border-radius: 5%;
+    color: #ffff;
+}
+
+.EURBGN {
+    border-bottom: none;
+}
